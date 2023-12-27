@@ -1,2 +1,2 @@
 # Java-Script learning 
-code repo for js 
+code repo for java-script
