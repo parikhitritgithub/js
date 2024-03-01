@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | chai aur code </title>
+</head>
+<body style="background-color: black; color:aliceblue">
+    <div>
+        <div class="day">MONDAY</div>
+        <div class="day">TUESDAY</div>
+        <div class="day">WEDNESDAY</div>
+        <div class="day">SATURDAY</div>
+        <div class="day">sunday</div>
+    </div>
+    
+</body>
+<scrip>
+    const parent = document.querySelector(' .parent')
+    console.log(parent);
+    console.log(parent.children[1].innerHTML);
+    for(let i = 0 ; i < parent.children.length;i++){
+        console.log(parent.children[i].innerHTML);
+    }
+    parent.children[1].style.color = "orange "
+    console.log(parent.firstElementChild)
