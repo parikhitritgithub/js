@@ -5,7 +5,7 @@
 //     const b = 20    // block scope
 //     var c = 30 
 // }
-let a = 300
+let a = 302
 if(true){
     let a = 10 
     const b = 20 
